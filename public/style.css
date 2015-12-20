@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { overflow-y: scroll; }
+body {
+ 
+   font-family: "Times New Roman", Times, serif;
+  font-size: 70%;
+  line-height: 1;
+  color: #f0f0f0;
+  padding: 35px 0;
+}
+
+
+
+input, textarea {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+  
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+h1 { 
+  color: #f2f2f2;
+  font-size: 4.0em;
+  line-height: 1.6em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.8em;
+  line-height: 1.55em;
+  margin-bottom: 4px;
+  color: #888;
+}
+
+p {
+  font-size: 1.6em;
+  line-height: 1.55em;
+  margin-bottom: 12px;
+}
+
+a { 
+  color: #8eadd2;
+}
+a:hover {
+  color: #6e91b9;
+}
+
+
+/* page structure */
+#blocks {
+
+  margin: 0 auto;
+  display:block;
+  border-radius: 15px 50px 30px;
+  background: #000000;
+  padding: 15px 25px; 
+  width: 900px;
+  
+}
+
+#DisplayData{
+  display: block;
+  padding: 25px 0;
+}
+
+#loader {
+  display: block;
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+/* page content styles */
+.smallname {
+  font-size: 0.75em;
+  color: #a9a9a9;
+  font-style: italic;
+}
+
+.avi {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 7px;
+}
+.avi img {
+  border: 1px solid #ccc;
+  border-width: 3px;
+  padding: 3px;
+}
+#reposlist{
+   font-family: "Times New Roman", Times, serif;
+ 
+  font-size: 26px;
+  
+  color : #484848 ;
+  
+}
+.repolist {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.repolist ul {
+  font-size: 1.5em;
+}
+.repolist ul li {
+  display: block;
+}
+.repolist ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6px 9px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+li {
+  line-height: 36px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.repolist ul li a span {
+  font-family:courier;
+  font-size: 1.9em;
+  display: block;
+  font-size: 200%;
+}
+
+#tableadjust{
+  display: block;
+  text-align : right;
+  font-family : courier;
+   font-size: 120%;
+}
+
+/* input field */
+#username {
+  padding: 5px 8px;
+  font-size: 1.4em;
+  color: #666;
+  margin-bottom: 15px;
+  border:10px solid #456879;
+  border-radius:200px;
+  width: 462px;
+}
+
+#gitsubmit {
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+
+#gitsubmit:hover {
+  background-color:#5cbf2a;
+}
+#gitsubmit:active {
+  position:relative;
+  top:1px;
+}
+
+    
+
+/* clearfix */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
